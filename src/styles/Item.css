@@ -1,0 +1,117 @@
+.wrapper{
+    /* -webkit-box-shadow: 0px 0px 6px 3px rgba(164,171,171,1);
+-moz-box-shadow: 0px 0px 6px 3px rgba(164,171,171,1);
+box-shadow: 0px 0px 6px 3px rgba(164,171,171,1);
+margin: 10px; */
+width: 25%;
+margin-top:32px;
+background-color: black;
+color: #ea2e38;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.category-title{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    border-bottom: 1px solid grey;
+}
+.wrapper img{
+    height: 300px;
+    cursor: pointer;
+    display: inline-block;
+}
+.wrapper h1{
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.wrapper h4{
+    font-size: 14px;
+    color: #b5b5b5;
+    font-weight: 800;
+    padding: 5px 0px;
+}
+
+.contenedorC{
+    min-height: 60vh;
+    border-radius: 2px;
+    background-color: black;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.contenedorG{
+    background: black;
+    z-index: 1;
+    width: 100%;
+    background-image:  url(https://cache.tradeinn.com/images/background/smashinn2021-01-30.jpg);
+    text-align: center;
+}
+
+.envolvedor{
+    padding-top: 50px;
+    height: 85vh;
+    background:black;
+    display: flex;
+    color: rgb(181, 181, 181);
+}
+
+.foto-grande{
+    max-height: 600px;
+}
+
+
+.nombre{
+    color:rgb(78, 237, 221);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.div{
+   margin-right: 30px;
+   flex: 1;
+}
+.div2{
+    flex: 2;
+    padding-top: 30px;
+}
+.div2 p{
+    width: 90%;
+    margin-top: 10px;
+}
+.envolvedor button{
+    background-color: rgb(78, 237, 221);
+    font-size: 24px;
+    line-height: 10px;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 10px;
+}
+
+#addCart{
+    background-color: #ea2e38;
+    color: white;
+    border: none;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    width: 20%;
+}
+
+.detalle-compra{
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+.detalle-compra span{
+    margin: 10px;
+}

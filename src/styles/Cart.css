@@ -1,0 +1,65 @@
+.preview img{
+    height: 100px;
+    margin-right: 10px;
+}
+.preview h3{
+    color: white;
+    font-size: 14px;
+}
+.preview h2{
+    color: white;
+    font-size: 20px;
+}
+
+.preview{
+    display: flex;
+    margin: 20px;
+}
+.carrito{
+    color:rgb(78, 237, 221);
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.total{
+    color:rgb(78, 237, 221);
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+#spanTotal{
+    color: white;
+}
+#trash{
+    height: 20px;
+    width: 20px;
+    text-align: right;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-div{
+    width: 120px;
+}
+.block{
+    flex: 10;
+}
+
+#fin{
+    background-color: #ea2e38;
+    color: white;
+    border: none;
+    padding: 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
+}

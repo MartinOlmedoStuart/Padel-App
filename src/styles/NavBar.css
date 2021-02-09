@@ -1,0 +1,96 @@
+#logo{
+    height: 40px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height:15vh;
+}
+
+.links{ 
+    display: flex;
+    flex:1;
+    margin: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    list-style:none;
+}
+
+ul li{
+    margin-right: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.cart{
+    max-height: 30px;
+    margin: 30px 5px 30px 30px;
+    cursor: pointer;
+}
+
+.cart-widget{
+    background-color: black;
+    height: 100vh;
+    width: 520px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    
+}
+.close{
+    transform: translateX(520px);
+}
+.open{
+    transform: translateX(0px);
+}
+li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.hide{
+    display: none;
+}
+
+.cross{
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#contador-carro{
+    text-align: center;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    /* position: absolute;
+    top: 60px;
+    right: 90px; */
+    color: white;
+    /* background-color: white;
+    padding:2px; */
+    /* border-radius: 50%;
+    border: 1px solid white; */
+}
+
+.hidden{
+    display: none;
+}
+
+li a:hover{
+    color: #ea2e38;
+    text-decoration: none;
+}

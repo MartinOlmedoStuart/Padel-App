@@ -1,0 +1,64 @@
+.nombre-cat{
+    text-transform: uppercase;
+    text-align: left;
+    color:#ea2e38;
+    padding: 100px;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+.palas{
+    background: url(http://blackcrown.es/wp-content/uploads/2019/04/marta-banner-tienda.jpg) ;
+    background-position: 75% 25%;
+}
+
+.ropa{
+    background: url(http://blackcrown.es/wp-content/uploads/2018/10/bc-banner-news-2.jpg) ;
+    background-position: 75% 25%;
+}
+.zapatillas{
+    background: url(http://blackcrown.es/wp-content/uploads/2018/10/bc-banner-team-1.jpg) ;
+    background-position: 75% 15%;
+}
+.bolsos{
+    background: url(http://blackcrown.es/wp-content/uploads/2018/10/bc-banner-news-1.jpg) ;
+    background-position: 75% 45%;
+}
+.accesorios{
+    background: url(http://blackcrown.es/wp-content/uploads/2018/07/Banners-header-BC_academy.jpg) ;
+    background-position: 75% 20%;
+}
+.contacto{
+    background: url(http://blackcrown.es/wp-content/uploads/2018/10/bc-banner-contacto.jpg) ;
+    background-position: 75% 25%;
+}
+.detalle{
+    background: url(http://blackcrown.es/wp-content/uploads/2019/04/banner-pasion.jpg);
+    background-position: 75% 25%;
+}
+
+.load{
+    margin: 0 auto;
+}
+
+.cambiar-pagina{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cambiar-pagina button{
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    color: #b5b5b5;
+    border: 1px solid #ea2e38 ;
+}
+
+/* .detalle-compra{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+} */
+
