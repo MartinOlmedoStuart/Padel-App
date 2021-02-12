@@ -4,7 +4,8 @@
     margin-left: 30px;
 }
 
-body{
+html{
+    min-height: 100vh;
     background-color: black;
 }
 
@@ -33,20 +34,25 @@ ul li{
 }
 
 .cart{
-    max-height: 30px;
-    margin: 30px 5px 30px 30px;
+    max-height: 24px;
+    /* margin: 30px 5px 30px 30px; */
     cursor: pointer;
+    margin-right: 5px;
 }
 
 .cart-widget{
+    border: 3px solid white;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: black;
     height: 100vh;
     width: 520px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 66px;
     z-index: 10;
-    
+    transition: ease 0.3s;
 }
 .close{
     transform: translateX(520px);
@@ -72,9 +78,8 @@ li a{
 }
 
 #contador-carro{
-    text-align: center;
     margin-right: 30px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     /* position: absolute;
     top: 60px;
@@ -89,8 +94,34 @@ li a{
 .hidden{
     display: none;
 }
+.justify-content-end{
+    margin-right: 50px;
+}
 
-li a:hover{
+
+.justify-content-end a:hover{
     color: #ea2e38;
     text-decoration: none;
+}
+
+#navBar{
+    background-color:black;
+    color: #fff;
+}
+.justify-content-end a{
+    color: white;
+    text-transform:capitalize;
+    transition: 0.5s ease;
+    font-size: 0.95em;
+    margin-right: 20px;
+}
+
+.BootCart{
+position: absolute;
+right: 0;
+top: 16px;
+}
+
+.navbar-dark .navbar-toggler{
+    margin-right: 100px;
 }

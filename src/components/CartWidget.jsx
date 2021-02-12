@@ -38,11 +38,11 @@ function CartWidget (){
         };
 
     return(
-       <div className={`cart-widget ${abierto ? "open" : "close"}`}>
+       <div className={`cart-widget ${abierto ? "open" : "close"}`}  onMouseLeave={CambiarSetShow} >
         <div className="flex">
         <h1 className="carrito">CARRITO</h1>
         
-        <img className="cross" onClick={CambiarSetShow} src="https://flaticons.net/icon.php?slug_category=mobile-application&slug_icon=close" alt=""/>
+        {/* <img className="cross" onClick={CambiarSetShow} src="https://flaticons.net/icon.php?slug_category=mobile-application&slug_icon=close" alt=""/> */}
         
         
         

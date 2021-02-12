@@ -10,6 +10,7 @@ function Home(){
                 <img
                 className="d-block w-100"
                 src="https://i2.wp.com/royalpadel.com/wp-content/uploads/2020/12/Untitled-design69.png?fit=2240%2C950&ssl=1"
+                src="http://blackcrown.es/wp-content/uploads/2020/12/Thumb-Genius.jpg"
                 alt="First slide"
                 />
                 <Carousel.Caption>
@@ -21,6 +22,7 @@ function Home(){
                 <img
                 className="d-block w-100"
                 src="https://i2.wp.com/royalpadel.com/wp-content/uploads/2020/12/20214.png?fit=2240%2C950&ssl=1"
+                src="http://blackcrown.es/wp-content/uploads/2020/07/attack-berta.jpg"
                 alt="Third slide"
                 />
 
@@ -33,6 +35,7 @@ function Home(){
                 <img
                 className="d-block w-100"
                 src="https://i0.wp.com/royalpadel.com/wp-content/uploads/2020/12/Untitled-design70.png?fit=2240%2C950&ssl=1"
+                src="http://blackcrown.es/wp-content/uploads/2020/07/Miniatura-Piton-Limited.jpg"
                 alt="Third slide"
                 />
 

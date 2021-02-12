@@ -50,7 +50,6 @@ function Category(){
         getProductsFromDB();
     },[name]);
 
-  
     
     
 
@@ -69,11 +68,13 @@ function Category(){
         {items.map(item =>(
                     <Item item={item}/>
                 ))}
-        
+       
        
        
         </> :
         <div className="load">
+       
+            <img className="black-crown" src="http://blackcrown.es/wp-content/uploads/2018/06/Black-Crown-Logo-Header.png" alt=""/>
             <img className="gif" src="https://img1.picmix.com/output/stamp/normal/8/5/2/9/509258_fb107.gif" alt=""/>
         </div>
           }
